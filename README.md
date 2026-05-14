@@ -1,6 +1,6 @@
 # Windows 365 Agent Skill
 
-[![skills.sh](https://skills.sh/b/YOUR-GITHUB-USER/windows-365-agent-skill)](https://skills.sh/YOUR-GITHUB-USER/windows-365-agent-skill)
+[![skills.sh](https://skills.sh/b/RoelDU/windows-365-agent-skill)](https://skills.sh/RoelDU/windows-365-agent-skill)
 
 A community Agent Skill for Windows 365 Cloud PC guidance.
 
@@ -8,13 +8,11 @@ This skill helps agents answer and operationalize Windows 365 scenarios across E
 
 ## Install
 
-After publishing this repo publicly on GitHub, install with:
+Install with:
 
 ```bash
-npx skills add https://github.com/YOUR-GITHUB-USER/windows-365-agent-skill --skill windows-365
+npx skills add https://github.com/RoelDU/windows-365-agent-skill --skill windows-365
 ```
-
-Replace `YOUR-GITHUB-USER` with the GitHub account or organization that owns the repo.
 
 ## Skill
 
@@ -57,14 +55,6 @@ The skill is original guidance based on curated Microsoft Learn sources, includi
 - Resize, restore, reprovision, monitoring, reporting, troubleshooting, and Microsoft Graph API documentation
 
 The skill intentionally links to Microsoft Learn rather than copying large documentation passages.
-
-## Publishing checklist
-
-1. Create a public GitHub repository named `windows-365-agent-skill`.
-2. Upload this folder contents to the repository root.
-3. Replace `YOUR-GITHUB-USER` in this README with the GitHub account or organization name.
-4. Add repository topics such as `agent-skill`, `windows-365`, `cloud-pc`, `microsoft-intune`, and `microsoft-learn`.
-5. Share the GitHub repository URL. People can install it with the `npx skills add` command above.
 
 ## License
 
